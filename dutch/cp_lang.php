@@ -15,7 +15,16 @@ $lang = array(
 'Wijzigen',
 
 'nav_files' => 
+'Bestanden',
+
+'nav_file_manager' => 
 'Bestandsbeheer',
+
+'nav_batch_upload' => 
+'Batch Upload',
+
+'nav_sync_files' => 
+'Synchroniseer Bestanden',
 
 'nav_files_short_desc' => 
 'Upload, wijzig en verwijder bestanden',
@@ -31,6 +40,12 @@ $lang = array(
 
 'nav_create_template' => 
 'Cre&#235;er Template',
+
+'nav_edit_template_group' => 
+'Wijzig Template Groep',
+
+'nav_edit_template_group_more' => 
+'...bekijk meer',
 
 'nav_templates' => 
 'Template',
@@ -244,6 +259,15 @@ $lang = array(
 
 'nav_file_upload_preferences_short_desc' => 
 'Maak, wijzig en verwijder Bestand Upload Voorkeuren',
+
+'nav_file_watermark_preferences' => 
+'',
+
+'nav_file_manager_short_desc' => 
+'',
+
+'nav_file_watermark_preferences_short_desc' => 
+'',
 
 'nav_default_ping_servers' => 
 'Standaard Ping Servers',
@@ -563,9 +587,6 @@ $lang = array(
 'required_fields' => 
 'Geeft verplichte velden aan.',
 
-'please_consult_manual' => 
-'Raadpleeg de handleiding',
-
 'forgotten_password' => 
 'Wachtwoord vergeten',
 
@@ -616,6 +637,9 @@ $lang = array(
 
 'save' => 
 'Opslaan',
+
+'sync' => 
+'Synchroniseer',
 
 'cancel' => 
 'Annuleer',

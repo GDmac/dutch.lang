@@ -101,6 +101,9 @@ $lang = array(
 'current_status' => 
 'Huidige Status',
 
+'required_by' => 
+'Nodig bij:',
+
 'available_to_member_groups' => 
 'Beschikbaar voor Leden Groepen',
 

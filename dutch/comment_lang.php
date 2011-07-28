@@ -14,8 +14,8 @@ $lang = array(
 'comments_moved' => 
 'Reacties verplaatst',
 
-'search_comments' => 
-'Doorzoek Reacties',
+'filter_comments' => 
+'Filter Reacties',
 
 'comment' => 
 'Reactie',
@@ -292,6 +292,12 @@ $lang = array(
 
 'end_date' => 
 'Eind Datum',
+
+'expand' => 
+'Uitklappen',
+
+'no_results' => 
+'Geen resultaten',
 
 'translate' => 
 'Update',

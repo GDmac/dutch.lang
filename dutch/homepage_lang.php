@@ -21,7 +21,7 @@ $lang = array(
 'ExpressionEngine heeft een verandering aan een hoofdbestand gedeteceerd op: {url}  De volgende bestanden zijn gewijzigd: {changed}  Als u deze wijzigingen heeft gemaakt, accepteer deze dan op de homepage van het control panel.  Als u deze wijzigingen niet heeft doorgevoerd kan het zijn dat u gehackt bent. Controleer de bestanden op verdachte inhoud (JavaScript or iFrames) en neem contact op met ExpressionEngine support: http://expressionengine.com/forums/viewcategory/4/  Bekijk de support policy voordat u een post plaatst op het forum: http://expressionengine.com/support/policy/',
 
 'new_version_notice' => 
-'Download <a href=\'%s\' title=\'Download Hier\'>hier</a> en volg de <a href=\'%s\' title=\'Versie Update Docs\'>Version Update Documentatie</a>.',
+'ExpressionEngine versie %s is nu beschikbaar. Download <a href=\'%s\' title=\'Download Hier\'>hier</a> en volg de <a href=\'%s\' title=\'Versie Update Docs\'>Versie Update Documentatie</a>.',
 
 'new_version_notice_high_priority' => 
 '<span style="font-size:18px;color:#3BA1DB;font-weight:bold">Veiligheids Update Release</span><br /> Een ExpressionEngine versie %s, build %s is uitgekomen als een veiligheids release.  De laatste versie is: %s, en de laatste build is: %s.<br /><br /> Download alstublieft <a href="%s" title="Download Hier">hier</a> en volg de <a href="%s" title="Update Documentatie">update documentatie</a> om zeker te zijn dat u de meest recente versie draait.',
@@ -142,9 +142,6 @@ $lang = array(
 
 'exact_match' => 
 'Exacte Match',
-
-'pmachine_news_feed' => 
-'EllisLab Nieuws Feed',
 
 'no_news' => 
 'Geen Nieuws Beschikbaar',

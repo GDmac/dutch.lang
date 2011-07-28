@@ -489,7 +489,10 @@ $lang = array(
 'Kan reacties verwijderen in ALLE berichten',
 
 'can_admin_channels' => 
-'Kan channes en channel voorkeuren beheren',
+'Kan channels en channel voorkeuren beheren',
+
+'can_admin_upload_prefs' => 
+'Kan bestands upload voorkeuren beheren',
 
 'can_admin_members' => 
 'Kan leden accounts beheren',

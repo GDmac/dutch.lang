@@ -23,8 +23,8 @@ $lang = array(
 'whitelist' => 
 'Whitelist',
 
-'pmachine_whitelist' => 
-'Download de ExpressionEngine.com Whitelist',
+'ee_whitelist' => 
+'Download ExpressionEngine.com Whitelist',
 
 'whitelist_updated' => 
 'Whitelist succesvol gewijzigd',
@@ -50,8 +50,8 @@ $lang = array(
 'blacklist' => 
 'Blacklist',
 
-'pmachine_blacklist' => 
-'Download de ExpressionEngine.com Blacklist',
+'ee_blacklist' => 
+'Download ExpressionEngine.com Blacklist',
 
 'requires_license_number' => 
 'Licentie Nummer in Algemene Configuratie nodig',

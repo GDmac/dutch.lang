@@ -1,6 +1,7 @@
 <?php
 $lang = array(
 
+
 'url_title_is_index' => 
 'De URL titel kan niet &quot;index&quot; genoemd worden',
 
@@ -47,7 +48,7 @@ $lang = array(
 'Laad revisie',
 
 'current_rev' => 
-'Huidig bericht',
+'Huidige bericht',
 
 'version_preview' => 
 'Revisie nummer %s',
@@ -377,7 +378,7 @@ $lang = array(
 'Er is al een tab met deze naam',
 
 'illegal_characters' => 
-'Tab namen moeten alleen letters, cijfers, koppeltekens en/of underscores bevatten',
+'Tabnamen moeten alleen letters, cijfers, koppeltekens en/of underscores bevatten',
 
 'authors' => 
 'Auteurs',
@@ -583,6 +584,9 @@ $lang = array(
 'upload_dir_choose' => 
 'Kies een upload map',
 
+'upload_to' => 
+'Uploaden naar',
+
 'emoticons' => 
 'Smileys',
 
@@ -727,6 +731,15 @@ $lang = array(
 'file_exists' => 
 'Er bestaat al een bestand met deze naam',
 
+'file_exists_warning' => 
+'Bestaand Bestand Waarschuwing',
+
+'actions' => 
+'Acties',
+
+'action_delete' => 
+'Verwijderen',
+
 'overwrite_instructions' => 
 'U kunt er voor kiezen het bestand een nieuwe naam te geven, of u kunt het bestand toevoegen met dezelfde naam waarna het bestand met dezelfde naam overschreven zal worden.',
 
@@ -738,6 +751,9 @@ $lang = array(
 
 'file_type' => 
 'Bestandstype',
+
+'file_saved' => 
+'Bestand Opgeslagen',
 
 'non_image' => 
 'Geen afbeelding',
@@ -952,6 +968,12 @@ $lang = array(
 'show_tools' => 
 'Tools tonen',
 
+'wm_discard_changes' => 
+'Wijzigingen negeren',
+
+'wm_publish_to_field' => 
+'Publiceer naar Veld',
+
 'edit_modes' => 
 'Wijzig modus',
 
@@ -1018,6 +1040,9 @@ $lang = array(
 'layout_failure_invalid_name' => 
 'De volgende velden hebben ongeldige karakters in de korte namen:',
 
+'layout_preview' => 
+'U bekijkt de Publish Lay-out voor',
+
 'no_entry_to_update' => 
 'U probeert een bericht op te slaan wat niet bestaat',
 
@@ -1047,6 +1072,9 @@ $lang = array(
 
 'remove_file' => 
 'Bestand verwijderen',
+
+'directory_no_access' => 
+'U heeft geen toegang tot de directory die voor dit veld ingesteld is.',
 
 'invalid_selection' => 
 'Ongeldige selectie',

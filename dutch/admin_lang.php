@@ -584,18 +584,6 @@ $lang = array(
 'profile_buttons_exp' => 
 'Dit is het pad naar de directory die de afbeeldingen bevatten die gebruikt worden in de leden profiel pagina&#39;s',
 
-'remap_pm_urls' => 
-'Link de pMachine Pro URLs door naar die van EE',
-
-'remap_pm_urls_desc' => 
-'Als je hebt gemigreert van PM Pro naar EE dan zal deze optie er voor zorgen dat bezoekers die uw website bezoeken via de oude pM URLs automatisch doorlinken naar die van EE.',
-
-'remap_pm_dest' => 
-'Doel van de doorgelinkte URLs',
-
-'remap_pm_dest_exp' => 
-'Als de URLs van pM doorgelinkt moeten worden, waarheen zal die dan moeten? Gebruik een volledige URL en voeg daar de template_groep/template daar aan toe. Bijv: http://www.jouwsite.nl/index.php/template_groep/template/',
-
 'captcha_rand' => 
 'Voeg een willekeurig nummer toe aan het Captcha woord',
 
@@ -1241,8 +1229,8 @@ $lang = array(
 'channel_administration' => 
 'Channel Administratie',
 
-'channel_management' => 
-'Channel Beheer',
+'channels' => 
+'Channels',
 
 'field_management' => 
 'Aan te passen Channel Velden',
@@ -1259,8 +1247,8 @@ $lang = array(
 'default_ping_servers' => 
 'Standaard Ping Servers',
 
-'status_management' => 
-'Aan te passen Bericht status',
+'statuses' => 
+'Status',
 
 'status_created' => 
 'Status is aangemaakt',

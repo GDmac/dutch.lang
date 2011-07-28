@@ -77,8 +77,8 @@ $lang = array(
 'moblog_email_settings' => 
 'E-mail Instellingen',
 
-'moblog_image_settings' => 
-'Afbeelding Instellingen',
+'moblog_file_settings' => 
+'Bestand instellingen',
 
 'moblog_full_name' => 
 'Volledige Moblog naam',
@@ -128,32 +128,11 @@ $lang = array(
 'moblog_upload_directory' => 
 'Upload Directory voor bestanden',
 
-'moblog_image_width' => 
-'Breedte van Afbeelding',
+'moblog_image_size' => 
+'Afbeelding Formaat',
 
-'moblog_image_height' => 
-'Hoogte van Afbeelding',
-
-'moblog_resize_image' => 
-'Verklein Afbeelding bij Importeren?',
-
-'moblog_resize_width' => 
-'Verklein Breedte',
-
-'moblog_resize_height' => 
-'Verklein Hoogte',
-
-'moblog_create_thumbnail' => 
-'Maak Thumbnail bij Importeren?',
-
-'moblog_thumbnail_width' => 
-'Thumbnail Breedte',
-
-'moblog_thumbnail_height' => 
-'Thumbnail Hoogte',
-
-'set_to_zero' => 
-'Het programma probeert zelf de groote te achterhalen, vul dus 0 in als de groote onbekend is',
+'moblog_thumb_size' => 
+'Thumbnail Formaat',
 
 'moblog_email_type' => 
 'E-mail Account Type',

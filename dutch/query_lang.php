@@ -6,7 +6,7 @@ $lang = array(
 'Query',
 
 'query_module_description' => 
-'SQL query module voor sjablonen',
+'SQL query module voor templates',
 
 'translate' => 
 'Update',

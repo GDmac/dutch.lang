@@ -464,9 +464,6 @@ $lang = array(
 'email_changed' => 
 'Uw e-mailadres is veranderd in:',
 
-'password_change_requires_login' => 
-'Let Op:  Als u uw wachtwoord veranderd moet u opnieuw inloggen',
-
 'settings_updated' => 
 'Instellingen zijn gewijzigd',
 
@@ -524,9 +521,6 @@ $lang = array(
 'bookmarklet_info' => 
 'Een Bladwijzer geeft u de mogelijkheid om toevoegingen aan uw weblog te maken zonder in te loggen op het control panel',
 
-'consult_manual' => 
-'Raadpleeg de Gebruikershandleiding voor meer informatie',
-
 'bookmarklet_name' => 
 'Naam Van Uw Bladwijzer',
 
@@ -551,9 +545,6 @@ $lang = array(
 'no_fields_assigned_to_channel' => 
 'Het Channel wat u gekozen heeft heeft geen Veldgroep aan zich toegekend.',
 
-'safari_users' => 
-'Klik hier als u Safari als browser gebruikt',
-
 'bookmarklet_instructions' => 
 'Bewaar deze link in uw favorieten menu:',
 
@@ -568,9 +559,6 @@ $lang = array(
 
 'login_as_member' => 
 'Login als Lid',
-
-'pmachine_news_feed' => 
-'EllisLab Nieuws Feed',
 
 'sidebar_updated' => 
 'Sidebar Status Ge&#252;pdatet',

@@ -609,7 +609,7 @@ $lang = array(
 'Zoeken',
 
 'tmpl_search_result' => 
-'',
+'(%s) resultaten in (%s) Template Groepen',
 
 'no_results' => 
 'De zoekterm die u ingevoerd heeft is niet gevonden in een template',

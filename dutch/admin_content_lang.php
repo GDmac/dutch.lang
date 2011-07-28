@@ -152,6 +152,9 @@ $lang = array(
 'alpha' => 
 'Alfabetisch',
 
+'id' => 
+'ID',
+
 'channel_id' => 
 'ID',
 
@@ -386,6 +389,9 @@ $lang = array(
 'edit_channel' => 
 'Wijzig Channel',
 
+'channel_full_name' => 
+'Volledige naam',
+
 'new_channel' => 
 'Nieuw Channel',
 
@@ -514,6 +520,30 @@ $lang = array(
 
 'assign_channels' => 
 'Kies welke channel(s) u aan deze groep wilt toekennen',
+
+'group' => 
+'Groep',
+
+'group_name' => 
+'Groepsnaam',
+
+'new_group_name' => 
+'Nieuwe Groepsnaam',
+
+'total_fields' => 
+'Totaal aantal velden',
+
+'rename' => 
+'Hernoem',
+
+'rename_group' => 
+'Hernoem Groep',
+
+'delete' => 
+'Verwijder',
+
+'delete_group' => 
+'Verwijder Groep',
 
 'category_group' => 
 'Categorie Groep',
@@ -656,8 +686,20 @@ $lang = array(
 'can_delete_categories' => 
 'Kan Categorie&#235;n verwijderen',
 
+'exclude_from_channels_or_publish' => 
+'Uitsluiten van Channel of Veld Categorie Toekenning',
+
+'exclude_from_publish' => 
+'Channel Toekenning',
+
+'exclude_from_files' => 
+'Bestand Toekenning',
+
 'no_member_groups_available' => 
 'Er zijn geen leden groepen toegestaan op %x Categorie&#235;n.  U kunt deze privileges toekennen in het leden groep beheer: ',
+
+'member_group' => 
+'Leden Groep',
 
 'member_groups' => 
 'Leden Groepen',
@@ -869,11 +911,17 @@ $lang = array(
 'field_content_file' => 
 'Bestand type:',
 
+'allowed_dirs_file' => 
+'Toegestane Directory',
+
 'type_numeric' => 
 'Nummer',
 
 'type_integer' => 
 'Getal',
+
+'type_decimal' => 
+'Decimaal',
 
 'type_file' => 
 'Bestand',
@@ -884,20 +932,11 @@ $lang = array(
 'status_group' => 
 'Status Groep',
 
-'status_groups' => 
-'Status Groepen',
-
 'no_status_group_message' => 
 'Er zijn op dit moment geen custom statussen',
 
 'create_new_status_group' => 
 'Maak een nieuwe Status Groep',
-
-'edit_status_group' => 
-'Wijzig Status Groep',
-
-'name_of_status_group' => 
-'Naam van de Status Groep',
 
 'taken_status_group_name' => 
 'Deze Status Groep naam is al in gebruik.',
@@ -958,114 +997,6 @@ $lang = array(
 
 'delete_status_confirmation' => 
 'Weet je zeker dat je de volgende status wilt verijderen?',
-
-'edit_file_upload_preferences' => 
-'Wijzig de instellingen van de Bestands Upload functie',
-
-'new_file_upload_preferences' => 
-'Nieuwe Bestands Upload bestemming',
-
-'new_file_upload_created' => 
-'Nieuw Bestand Upload aangemaakt',
-
-'file_upload_preferences' => 
-'Bestands Upload voorkeuren',
-
-'no_upload_prefs' => 
-'Er zijn op dit moment geen Bestands Upload voorkeuren',
-
-'please_add_upload' => 
-'Er zijn op dit moment geen upload mappen beschikbaar. Voeg 1 of meer upload mappen toe om het bestands fieldtype te gebruiken.',
-
-'create_new_upload_pref' => 
-'Maak een nieuwe Upload bestemming',
-
-'upload_pref_name' => 
-'Beschrijving van de Upload Map',
-
-'server_path' => 
-'Server Pad naar Upload Map',
-
-'url_to_upload_dir' => 
-'URL van de Upload Map',
-
-'allowed_types' => 
-'Toegestane Bestands Types',
-
-'max_size' => 
-'Maximale Bestandsgrootte (in bytes)',
-
-'max_height' => 
-'Maximale Hoogte van Afbeelding (in pixels)',
-
-'max_width' => 
-'Maximale Breedte van Afbeelding ',
-
-'properties' => 
-'Afbeelding Voorkeuren',
-
-'pre_format' => 
-'Pre Formatting',
-
-'post_format' => 
-'Post Formatting',
-
-'no_upload_dir_name' => 
-'U moet een naam opgeven voor uw upload map',
-
-'no_upload_dir_path' => 
-'U moet een pad opgeven voor uw upload map',
-
-'no_upload_dir_url' => 
-'U moet een URL opgeven voor uw upload map',
-
-'duplicate_dir_name' => 
-'De naam van uw directory is al gekozen',
-
-'delete_upload_preference' => 
-'Verwijder Upload Voorkeuren',
-
-'delete_upload_pref_confirmation' => 
-'Weet u zeker dat u deze voorkeuren permanent wilt verwijderen?',
-
-'upload_pref_deleted' => 
-'Upload Voorkeuren Verwijderd:',
-
-'current_upload_prefs' => 
-'Huidige Voorkeuren',
-
-'restrict_to_group' => 
-'Uploaden van bestanden alleen toestaan aan geselecteerde groepen',
-
-'restrict_notes_1' => 
-'Deze keuze knoppen laten je specificeren wie er bestanden en foto&#39;s kan uploaden en kan laten zien in de berichten',
-
-'restrict_notes_2' => 
-'Super Admins kunnen altijd bestanden uploaden',
-
-'restrict_notes_3' => 
-'Let Op: Bestanden uploaden is op dit moment alleen toegestaan via het control panel',
-
-'member_group' => 
-'Leden Groep',
-
-'can_upload_files' => 
-'Kan bestanden uploaden',
-
-'images_only' => 
-'Alleen afbeeldingen',
-
-'all_filetypes' => 
-'Alle bestandstypes',
-
-'file_properties' => 
-'Bestands voorkeuren',
-
-'file_pre_format' => 
-'Bestands Pre Formatting',
-
-'file_post_format' => 
-'Bestands Post Formatting',
 
 'url_title_prefix' => 
 'URL Titel Prefix',

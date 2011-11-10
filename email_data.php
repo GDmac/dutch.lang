@@ -9,7 +9,7 @@ if ( ! function_exists('admin_notify_mailinglist_title'))
 	function admin_notify_mailinglist_title()
 	{
 return <<<EOF
-Someone has subscribed to your mailing list
+Iemand heeft zich ingeschreven voor uw mailinglijst.
 EOF;
 	}
 }
@@ -19,7 +19,7 @@ if ( ! function_exists('admin_notify_mailinglist'))
 	function admin_notify_mailinglist()
 	{
 return <<<EOF
-A new mailing list subscription has been accepted.
+Een nieuwe mailinglijst inschrijving is geaccepteerd. 
 
 Email Address: {email}
 Mailing List: {mailing_list}
@@ -38,7 +38,7 @@ if ( ! function_exists('admin_notify_entry_title'))
 	function admin_notify_entry_title()
 	{
 return <<<EOF
-A new channel entry has been posted
+Een nieuw Channel bericht is geplaatst.
 EOF;
 	}
 }
@@ -48,16 +48,16 @@ if ( ! function_exists('admin_notify_entry'))
 	function admin_notify_entry()
 	{
 return <<<EOF
-A new entry has been posted in the following channel:
+Een nieuw bericht is geplaatst in het volgende channel:
 {channel_name}
 
-The title of the entry is:
+De titel van het bericht is:
 {entry_title}
 
-Posted by: {name}
+Geplaatst door: {name}
 Email: {email}
 
-To read the entry please visit: 
+Om het bericht te lezen klik op de volgende link:
 {entry_url}
 
 EOF;
@@ -75,7 +75,7 @@ if ( ! function_exists('admin_notify_reg_title'))
 	function admin_notify_reg_title()
 	{
 return <<<EOF
-Notification of new member registration
+Notificatie van een nieuwe registratie
 EOF;
 	}
 }
@@ -85,13 +85,13 @@ if ( ! function_exists('admin_notify_reg'))
 	function admin_notify_reg()
 	{
 return <<<EOF
-New member registration site: {site_name}
+Nieuwe registratie site: {site_name}
 
-Screen name: {name}
-User name: {username}
-Email: {email}
+Schermnaam: {name}
+Gebruikersnaam: {username}
+E-mail: {email}
 
-Your control panel URL: {control_panel_url}
+Uw control panel URL: {control_panel_url}
 EOF;
 	}
 }
@@ -107,7 +107,7 @@ if ( ! function_exists('admin_notify_comment_title'))
 	function admin_notify_comment_title()
 	{
 return <<<EOF
-You have just received a comment
+Er is een reactie geplaatst
 EOF;
 	}
 }
@@ -117,19 +117,19 @@ if ( ! function_exists('admin_notify_comment'))
 	function admin_notify_comment()
 	{
 return <<<EOF
-You have just received a comment for the following channel:
+Er is een reactie geplaatst in het volgende channel:
 {channel_name}
 
-The title of the entry is:
+De titel van het bericht is:
 {entry_title}
 
-Located at: 
+Te vinden op: 
 {comment_url}
 
-Posted by: {name}
-Email: {email}
+Geplaatst door: {name}
+E-mail: {email}
 URL: {url}
-Location: {location}
+Locatie: {location}
 
 {comment}
 EOF;
@@ -147,7 +147,7 @@ if ( ! function_exists('mbr_activation_instructions_title'))
 	function mbr_activation_instructions_title()
 	{
 return <<<EOF
-Enclosed is your activation code
+Bijgevoegd uw activatiecode
 EOF;
 	}
 }
@@ -157,13 +157,13 @@ if ( ! function_exists('mbr_activation_instructions'))
 	function mbr_activation_instructions()
 	{
 return <<<EOF
-Thank you for your new member registration.
+Bedankt voor uw registratie
 
-To activate your new account, please visit the following URL:
+Om uw account te activeren, klik op de volgende link:
 
 {unwrap}{activation_url}{/unwrap}
 
-Thank You!
+Bedankt!
 
 {site_name}
 
@@ -183,7 +183,7 @@ if ( ! function_exists('forgot_password_instructions_title'))
 	function forgot_password_instructions_title()
 	{
 return <<<EOF
-Login information
+Login informatie
 EOF;
 	}
 }
@@ -195,13 +195,13 @@ if ( ! function_exists('forgot_password_instructions'))
 return <<<EOF
 {name},
 
-To reset your password, please go to the following page:
+Om uw wachtwoord te wijzigen, ga naar de volgende pagina:
 
 {reset_url}
 
-Your password will be automatically reset, and a new password will be emailed to you.
+Uw wachtwoord zal automatisch gereset worden en een nieuw wachtwoord ontvangt u per e-mail.
 
-If you do not wish to reset your password, ignore this message. It will expire in 24 hours.
+Indien u niet uw wachtwoord wilt wijzigen, negeer deze e-mail dan. Na 24 uur zal deze link niet meer actief zijn.
 
 {site_name}
 {site_url}
@@ -221,7 +221,7 @@ if ( ! function_exists('reset_password_notification_title'))
 	function reset_password_notification_title()
 	{
 return <<<EOF
-New Login Information
+Uw nieuwe login informatie
 EOF;
 	}
 }
@@ -233,10 +233,10 @@ if ( ! function_exists('reset_password_notification'))
 return <<<EOF
 {name},
 
-Here is your new login information:
+Hier is uw nieuwe login informatie:
 
-Username: {username}
-Password: {password}
+Gebruikersnaam: {username}
+Wachtwoord: {password}
 
 {site_name}
 {site_url}
@@ -256,7 +256,7 @@ if ( ! function_exists('validated_member_notify_title'))
 	function validated_member_notify_title()
 	{
 return <<<EOF
-Your membership account has been activated
+Uw lidmaatschap is geactiveerd
 EOF;
 	}
 }
@@ -268,9 +268,9 @@ if ( ! function_exists('validated_member_notify'))
 return <<<EOF
 {name},
 
-Your membership account has been activated and is ready for use.
+Uw lidmaatschap is geactiveerd en klaar om te gebruiken.
 
-Thank You!
+Bedankt!
 
 {site_name}
 {site_url}
@@ -289,7 +289,7 @@ if ( ! function_exists('decline_member_validation_title'))
 	function decline_member_validation_title()
 	{
 return <<<EOF
-Your membership account has been declined
+Uw lidmaatschap is afgewezen.
 EOF;
 	}
 }
@@ -301,7 +301,7 @@ if ( ! function_exists('decline_member_validation'))
 return <<<EOF
 {name},
 
-We're sorry but our staff has decided not to validate your membership.
+Sorry, maar onze staf heeft bepaalt uw account niet te activeren.
 
 {site_name}
 {site_url}
@@ -320,7 +320,7 @@ if ( ! function_exists('mailinglist_activation_instructions_title'))
 	function mailinglist_activation_instructions_title()
 	{
 return <<<EOF
-Email Confirmation
+E-mail Bevestiging
 EOF;
 	}
 }
@@ -330,15 +330,15 @@ if ( ! function_exists('mailinglist_activation_instructions'))
 	function mailinglist_activation_instructions()
 	{
 return <<<EOF
-Thank you for joining the "{mailing_list}" mailing list!
+Bedankt voor het inschrijven voor de "{mailing_list}" mailing lijst!
 
-Please click the link below to confirm your email.
+Klik op onderstaande link om uw e-mail adres te bevestigen.
 
-If you do not want to be added to our list, ignore this email.
+Als u niet lid wilt worden negeer deze e-mail dan.
 
 {unwrap}{activation_url}{/unwrap}
 
-Thank You!
+Bedankt!
 
 {site_name}
 EOF;
@@ -357,7 +357,7 @@ if ( ! function_exists('comment_notification_title'))
 	function comment_notification_title()
 	{
 return <<<EOF
-Someone just responded to your comment
+Iemand heeft gereageerd op uw bericht
 EOF;
 	}
 }
@@ -367,18 +367,18 @@ if ( ! function_exists('comment_notification'))
 	function comment_notification()
 	{
 return <<<EOF
-{name_of_commenter} just responded to the entry you subscribed to at:
+{name_of_commenter} heeft gereageerd op een bericht waar u voor ingeschreven bent op:
 {channel_name}
 
-The title of the entry is:
+De titel van het bericht is:
 {entry_title}
 
-You can see the comment at the following URL:
+U kunt de reactie zien op de volgende URL:
 {comment_url}
 
 {comment}
 
-To stop receiving notifications for this comment, click here:
+Om verdere e-mails over dit onderwerp te stoppen, klik hier:
 {notification_removal_url}
 EOF;
 	}
@@ -393,7 +393,7 @@ if ( ! function_exists('comments_opened_notification_title'))
 	function comments_opened_notification_title()
 	{
 return <<<EOF
-New comments have been added
+Nieuwe reacties zijn toegevoegd
 EOF;
 	}
 }
@@ -403,20 +403,20 @@ if ( ! function_exists('comments_opened_notification'))
 	function comments_opened_notification()
 	{
 return <<<EOF
-Responses have been added to the entry you subscribed to at:
+Nieuwe reacties zijn toegevoegd aan het bericht waar u voor ingeschreven bent op:
 {channel_name}
 
-The title of the entry is:
+De titel van het bericht is:
 {entry_title}
 
-You can see the comments at the following URL:
+U kunt de reactie zien op de volgende URL:
 {comment_url}
 
 {comments}
 {comment} 
 {/comments}
 
-To stop receiving notifications for this entry, click here:
+Om verdere e-mails over dit onderwerp te stoppen, klik hier:
 {notification_removal_url}
 EOF;
 	}
@@ -433,7 +433,7 @@ if ( ! function_exists('admin_notify_gallery_comment_title'))
 	function admin_notify_gallery_comment_title()
 	{
 return <<<EOF
-You have just received a comment
+U heeft een reactie ontvangen
 EOF;
 	}
 }
@@ -443,13 +443,13 @@ if ( ! function_exists('admin_notify_gallery_comment'))
 	function admin_notify_gallery_comment()
 	{
 return <<<EOF
-You have just received a comment for the following photo gallery:
+U heeft een reactie ontvangen op de volgende fotogallery:
 {gallery_name}
 
-The title of the entry is:
+De titel van het bericht is:
 {entry_title}
 
-Located at: 
+Op de volgende URL: 
 {comment_url}
 
 {comment}
@@ -467,7 +467,7 @@ if ( ! function_exists('gallery_comment_notification_title'))
 	function gallery_comment_notification_title()
 	{
 return <<<EOF
-Someone just responded to your comment
+Iemand heeft gereageerd op uw reactie
 EOF;
 	}
 }
@@ -477,15 +477,15 @@ if ( ! function_exists('gallery_comment_notification'))
 	function gallery_comment_notification()
 	{
 return <<<EOF
-Someone just responded to the photo entry you subscribed to at:
+Iemand heeft gereageerd op de foto waar u op geabonneerd bent:
 {gallery_name}
 
-You can see the comment at the following URL:
+U kunt de reactie zien op de volgende URL:
 {comment_url}
 
 {comment}
 
-To stop receiving notifications for this comment, click here:
+Om verdere e-mails over dit onderwerp te stoppen, klik hier:
 {notification_removal_url}
 EOF;
 	}
@@ -503,7 +503,7 @@ if ( ! function_exists('admin_notify_forum_post_title'))
 	function admin_notify_forum_post_title()
 	{
 return <<<EOF
-Someone just posted in {forum_name}
+Iemand heeft iets geplaatst in {forum_name}
 EOF;
 	}
 }
@@ -513,12 +513,12 @@ if ( ! function_exists('admin_notify_forum_post'))
 	function admin_notify_forum_post()
 	{
 return <<<EOF
-{name_of_poster} just submitted a new post in {forum_name}
+{name_of_poster} heeft een nieuwe post geplaatst in {forum_name}
 
-The title of the thread is:
+De titel van de thread is:
 {title}
 
-The post can be found at:
+De post kan op de volgende URL gevonden worden:
 {post_url}
 
 {body}
@@ -537,7 +537,7 @@ if ( ! function_exists('forum_post_notification_title'))
 	function forum_post_notification_title()
 	{
 return <<<EOF
-Someone just posted in {forum_name}
+Iemand heeft een bericht geplaatst in {forum_name}
 EOF;
 	}
 }
@@ -547,18 +547,18 @@ if ( ! function_exists('forum_post_notification'))
 	function forum_post_notification()
 	{
 return <<<EOF
-Someone just posted in a thread you subscribed to at:
+Iemand heeft een post gedaan in een thread waarop u geabonneerd bent op:
 {forum_name}
 
-The title of the thread is:
+De titel van de thread is:
 {title}
 
-The post can be found at:
+De post kan op de volgende URL gevonden worden:
 {post_url}
 
 {body}
 
-To stop receiving notifications for this comment, click here:
+Om verdere e-mails over dit onderwerp te stoppen, klik hier:
 {notification_removal_url}
 EOF;
 	}
@@ -575,7 +575,7 @@ if ( ! function_exists('private_message_notification_title'))
 	function private_message_notification_title()
 	{
 return <<<EOF
-Someone has sent you a Private Message
+Iemand heeft u een prive bericht gestuurd.
 EOF;
 	}
 }
@@ -588,16 +588,16 @@ return <<<EOF
 
 {recipient_name},
 
-{sender_name} has just sent you a Private Message titled ‘{message_subject}’.
+{sender_name} heeft u een prive bericht gestuurd met de titel ‘{message_subject}’.
 
-You can see the Private Message by logging in and viewing your inbox at:
+U kunt uw privebericht zien door in te loggen op uw inbox via:
 {site_url}
 
-Content:
+Berichtt:
 
 {message_content}
 
-To stop receiving notifications of Private Messages, turn the option off in your Email Settings.
+Om verdere notificaties over prive berichten te stoppen, zet deze functie dan uit in uw e-mail instellingen.
 
 {site_name}
 {site_url}
@@ -615,7 +615,7 @@ if ( ! function_exists('pm_inbox_full_title'))
 	function pm_inbox_full_title()
 	{
 return <<<EOF
-Your private message mailbox is full
+Uw prive berichten inbox is vol.
 EOF;
 	}
 }
@@ -627,10 +627,10 @@ if ( ! function_exists('pm_inbox_full'))
 return <<<EOF
 {recipient_name},
 
-{sender_name} has just attempted to send you a Private Message,
-but your inbox is full, exceeding the maximum of {pm_storage_limit}.
+{sender_name} wilde u zojuist een prive bericht sturen,
+maar uw inbox is vol. Het overschrijft het maximum van {pm_storage_limit} berichten.
 
-Please log in and remove unwanted messages from your inbox at:
+Log in en verwijder overtollige berichten uit uw inbox op:
 {site_url}
 EOF;
 	}
@@ -646,7 +646,7 @@ if ( ! function_exists('forum_moderation_notification_title'))
 	function forum_moderation_notification_title()
 	{
 return <<<EOF
-Moderation notification in {forum_name}
+Moderator bericht van {forum_name}
 EOF;
 	}
 }
@@ -656,12 +656,12 @@ if ( ! function_exists('forum_moderation_notification'))
 	function forum_moderation_notification()
 	{
 return <<<EOF
-{name_of_recipient}, a moderator has {moderation_action} your thread.
+{name_of_recipient}, een moderator heeft je thread {moderation_action}
 
-The title of the thread is:
+De titel van de thread is:
 {title}
 
-The thread can be found at:
+De thread kan gevonden worden op de volgende URL:
 {thread_url}
 EOF;
 	}
@@ -677,7 +677,7 @@ if ( ! function_exists('forum_report_notification_title'))
 	function forum_report_notification_title()
 	{
 return <<<EOF
-Post reported in {forum_name}
+Post gemeld op {forum_name}
 EOF;
 	}
 }
@@ -687,19 +687,19 @@ if ( ! function_exists('forum_report_notification'))
 	function forum_report_notification()
 	{
 return <<<EOF
-{reporter_name} just reported a post written by {author} in:
+{reporter_name} heeft een post geschreven door {author} gemeld op:
 {forum_name}
 
-The reason(s) for the report:
+De reden(en) voor melden zijnt:
 {reasons}
 
-Additional notes from {reporter_name}:
+Eventuele extra opmerkingen van {reporter_name}:
 {notes}
 
-The post can be found at:
+De post kan gevonden worden op:
 {post_url}
 
-Contents of reported post:
+Bericht waarover gemeld is:
 {body}
 EOF;
 	}
@@ -718,7 +718,7 @@ return <<<EOF
 <html>
 <head>
 
-<title>System Offline</title>
+<title>Systeem Offline</title>
 
 <style type="text/css">
 
@@ -781,9 +781,9 @@ color: 				#000;
 
 <div id="content">
 
-<h1>System Offline</h1>
+<h1>Systeem Offline</h1>
 
-<p>This site is currently offline</p>
+<p>Deze website is momenteel offline</p>
 
 </div>
 
@@ -921,7 +921,7 @@ if ( ! function_exists('mailinglist_template'))
 return <<<EOF
 {message_text}
 
-To remove your email from this mailing list, click here:
+Om u uit te schrijven van deze e-mai,l klik hier:
 {if html_email}<a href="{unsubscribe_url}">{unsubscribe_url}</a>{/if}
 {if plain_email}{unsubscribe_url}{/if}
 EOF;

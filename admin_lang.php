@@ -1202,8 +1202,8 @@ $lang = array(
 'enable_emoticons' => 
 'Smileys zichtbaar maken?',
 
-'emoticon_path' => 
-'URL naar de map die je smiley bevatten',
+'emoticon_url' => 
+'URL naar de smiley directory',
 
 'tracking_cfg' => 
 'Tracking Voorkeuren',

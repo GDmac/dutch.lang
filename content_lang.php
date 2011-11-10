@@ -585,7 +585,7 @@ $lang = array(
 'Kies een upload map',
 
 'upload_to' => 
-'Uploaden naar',
+'Uploaden naar %s',
 
 'emoticons' => 
 'Smileys',

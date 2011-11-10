@@ -455,9 +455,6 @@ $lang = array(
 'is_site_default' => 
 'Maak van het index template in deze groep de homepage van je site?',
 
-'consult_manual' => 
-'Bekijk de handleiding',
-
 'preferences_updated' => 
 'Voorkeuren gewijzigd',
 

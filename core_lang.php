@@ -56,6 +56,9 @@ $lang = array(
 'or' => 
 'of',
 
+'id' => 
+'ID',
+
 'encoded_email' => 
 '(JavaScript moet ingeschakeld zijn om dit e-mail adres te bekijken)',
 

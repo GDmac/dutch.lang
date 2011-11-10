@@ -261,13 +261,13 @@ $lang = array(
 'Maak, wijzig en verwijder Bestand Upload Voorkeuren',
 
 'nav_file_watermark_preferences' => 
-'',
+'Watermerk Voorkeuren',
 
 'nav_file_manager_short_desc' => 
-'',
+'Bestand Upload Voorkeuren',
 
 'nav_file_watermark_preferences_short_desc' => 
-'',
+'Watermerk Voorkeuren',
 
 'nav_default_ping_servers' => 
 'Standaard Ping Servers',

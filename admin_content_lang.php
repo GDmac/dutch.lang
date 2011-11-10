@@ -575,9 +575,6 @@ $lang = array(
 'edit_group_name' => 
 'Wijzig Categorie',
 
-'delete_group' => 
-'Verwijder Groep',
-
 'category_group_created' => 
 'Aangemaakte Categorie Groep:',
 
@@ -715,9 +712,6 @@ $lang = array(
 
 'field_groups' => 
 'Veld Groepen',
-
-'field_group_name' => 
-'Veld Groep Naam',
 
 'custom_fields' => 
 'Custom Veld',

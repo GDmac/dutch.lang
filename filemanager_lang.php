@@ -221,6 +221,12 @@ $lang = array(
 'uploading_file' => 
 'Bestand aan het uploaden',
 
+'list' => 
+'een lijst',
+
+'thumbnails' => 
+'thumbnails',
+
 'pagination_count_text' => 
 '%s tot %s van de %s bestanden getoond.',
 
@@ -623,14 +629,17 @@ $lang = array(
 'invalid_directory' => 
 'U heeft een ongeldige directory geselecteerd',
 
-'file_security_failure' => 
-'Bestand kan niet ge&#252;pload worden vanwege een beveilingsfout',
+'security_failure' => 
+'Het bestandstype dat u probeert te uploaden is niet toegestaan',
 
 'thumb_not_created' => 
 'Thumbnail kan niet gemaakt worden. Controleer of de thumbnail map schrijfrechten heeft.',
 
 'invalid_mime' => 
 'Ongeldig mime type. Bestand kan niet verwerkt worden',
+
+'exceeds_max_dimensions' => 
+'Bestand is groter dan de maximale afmeting en is niet verkleinbaar.',
 
 'file_not_added_to_db' => 
 'Bestand kan niet opgeslagen worden in database.',

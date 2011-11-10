@@ -557,6 +557,9 @@ $lang = array(
 'mbr_field_required' => 
 'Het volgende veld is verplicht:',
 
+'mbr_field_invalid' => 
+'Het volgende veld bevat een ongeldige selectie:',
+
 'mbr_username_length' => 
 'Gebruikersnamen moeten tenminste %x tekens lang zijn',
 

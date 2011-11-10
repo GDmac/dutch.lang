@@ -4,7 +4,9 @@ Originally by "Willem de Boer":http://www.willemdeboer.com/, added to GitHub for
 
 h2. Installation
 
-Download and copy the @dutch@ folder to your @/system/expressionengine/language/@ directory.
+* "Download":https://github.com/lodewijk/dutch.lang/zipball/master the latest version
+* Rename the folder you downloaded to *dutch*
+* Move the @dutch@ folder to your @/system/expressionengine/language/@ directory
 
 h2. Contains
 
